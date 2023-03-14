@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    padding: 2em;
+    margin: 3em;
+    text-transform: uppercase;
+    background-color: black;
+    color: pink;
+}
+
+nav a:visited {
+    color: pink;
+}
+
+nav a {
+    padding: 0 1em;
+    text-decoration: none;
+}
+#about {
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.6);
+}
+
+.clubs {
+    width:  auto;
+    height: 10rem;
+}
+
+#logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ron {
+    width: auto;
+    height: 16em;
+    padding: 2px;
+    border-radius: 25px;
+    background: #030303;
+}
+
+#crist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#main-ron {
+    width: 50vw;
+    height: auto;
+    border-radius: 0px 90px 0px;
+    background: #000100;
+    padding: 5px;
+}
+h1 {
+    text-shadow: 1px 1px 2px black;
+    color: white;
+}
